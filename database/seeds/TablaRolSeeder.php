@@ -17,7 +17,8 @@ class TablaRolSeeder extends Seeder
      */
     public function run()
     {
-        //
+        /* esta funcion crea un array "rols" con informacion y la inserta a la tabla rol
+        */
         $rols = [
             'administrador',
             'editor',
