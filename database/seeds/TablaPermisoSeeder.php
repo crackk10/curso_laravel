@@ -1,6 +1,7 @@
 <?php
 
-use App\Models\Permiso;
+use App\Models\Admin\Permiso as AdminPermiso;
+
 use Illuminate\Database\Seeder;
 
 class TablaPermisoSeeder extends Seeder
@@ -13,6 +14,6 @@ class TablaPermisoSeeder extends Seeder
     public function run()
     {
         //este seeder activa el factory "Permiso y crea 50 registros"
-        factory(Permiso::class, 50)->create();
+        factory(AdminPermiso::class, 50)->create();
     }
 }
